@@ -1,5 +1,5 @@
 require('./db/connect')
-import * as express from 'express'
+import express from 'express'
 import bodyParser from 'body-parser'
 import itemRoutes from './routes/item'
 
