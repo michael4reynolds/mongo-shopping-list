@@ -15,3 +15,5 @@
 
     $ heroku config:set DB_URL="mongodb://dbusername:dbpassword@dsnum.mlab.com:dsnum/shopping_list"
     $ git push heroku master
+    
+_Make sure to add DB_URI to Travis CI environment variables_

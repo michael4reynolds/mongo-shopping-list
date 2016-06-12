@@ -8,3 +8,10 @@ addons:
     - mongodb-3.2-precise
     packages:
     - mongodb-org-server
+deploy:
+  provider: heroku
+  api_key:
+    secure: NAcpdk10KnYzJzAiHGQAVfuz0W8pohUYtnzQiUrmn8BO9Xrc3HgLDVIDwtCjXMyN/OyOAJWuUfsE5eInbAU9koHR66awYqAfvmLcWAGtUklC8VhW8tvUsfrXpW5GkS9qjJ/fVpymbKFXLLBA66esBXYXzrGYT80R7I7s7+TLyc9Eg2VVXCUme3ToXK5ih/wHfjFXzSu/+Q0YfMy+2s963x1sLSfx2EFeT+tce0hMvSOR7I3lygm1p4qa2kUfjKW/VMU/D6VpBNA997tcyEv7c/sq9IMBXSdgtt9SJkXr64yhHO5BZQhS7hMI5laFHtKEy0emn8bytgcOhf2ENhrisuRwMmI/kSWtQEQJD6KcP2ttwHlatfuhNW37Gf/1oxlCUCzV+bNLf9YnlPbF8KBDJ3QBpZjSwdoZyvyk4p89lWb5EP0UyhyBJ1bY3jHkyTPWbIp1Qf8aYCRaivgle6UK/4GE/1/IQzpXcSNql7wLeJ5IXcQyfBUq1SstSeOWTGfSzo3Ph1qusC4EMRxY42pANya8L1qB467Y1zUzYPnv5yHOInpzdyEy+f9avcE3grM23fOpEFPXKg4XmeBvVg4AbP3qetYsYtTO66G2DPi4x82FRYQEfeRH+gckzVbvgCTyrL1pLTkCKHnwG010S8iUJiSbp0LBDgcnqSOzdSYCmso=
+  app: shopping-list-16
+  on:
+    repo: michael4reynolds/mongo-shopping-list
