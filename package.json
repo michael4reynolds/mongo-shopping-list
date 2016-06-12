@@ -5,7 +5,7 @@
   "main": "src/server.js",
   "scripts": {
     "dev": "nodemon --exec babel-node src/server.js",
-    "prestart": "babel src -s -d dist && cp src/db/config.json dist/db/",
+    "prestart": "babel src -s -d dist",
     "start": "node dist/server.js",
     "debug": "babel-node-debug src/server.js",
     "test": "mocha test/test-server.js --compilers js:babel-core/register"
